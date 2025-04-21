@@ -1,6 +1,7 @@
 # HelloPaw
 
-HelloPaw is a web-based application designed to streamline the operations of pet service businesses. Built using the Django framework, it offers a suite of tools to manage clients, pets, services, orders, billing, and more, providing an integrated solution for pet care providers.
+HelloPaw is a web-based application designed to streamline the operations of pet service businesses. Built using the Django framework, it offers a suite of tools to manage clients, pets, services, orders, billing, and more, providing an integrated solution for pet care providers.  
+![Alt Text](https://github.com/Marjan18101013/HelloPaw/blob/master/media/home/base.jpg?raw=true)
 
 ## Features
 
@@ -19,6 +20,28 @@ HelloPaw is a web-based application designed to streamline the operations of pet
 - **Frontend**: HTML, CSS
 - **Database**: SQLite (default for Django projects)
 - **Media Handling**: Django's media management for uploading and serving files
+
+Absolutely! Here's a snippet you can paste directly into your `README.md` to display the UML diagram image along with a short descriptive paragraph:
+
+---
+
+### Use Case Diagram
+
+The following UML use case diagram illustrates the primary interactions between system actors and functionalities in **HelloPaw**:
+
+![Alt Text](https://github.com/Marjan18101013/HelloPaw/blob/master/media/images/DP/uml.png?raw=true)
+
+**Description:**
+
+- **Customer** can:
+  - Buy **Products** or **Services**
+  - Make **Payments**
+  - Log into the system
+- **Admin** has access to **Manage the System**
+- Product and Service selection actions extend to more specific use cases like `choose product` and `choose service`.
+- Payment actions extend to `pay product` and `pay service`, both of which require card validation from a **Bank** actor.
+
+This visual overview helps identify the scope and responsibilities within the system for both customers and administrators.
 
 ## Project Structure
 
