@@ -21,9 +21,6 @@ HelloPaw is a web-based application designed to streamline the operations of pet
 - **Database**: SQLite (default for Django projects)
 - **Media Handling**: Django's media management for uploading and serving files
 
-Absolutely! Here's a snippet you can paste directly into your `README.md` to display the UML diagram image along with a short descriptive paragraph:
-
----
 
 ### Use Case Diagram
 
@@ -40,8 +37,6 @@ The following UML use case diagram illustrates the primary interactions between 
 - **Admin** has access to **Manage the System**
 - Product and Service selection actions extend to more specific use cases like `choose product` and `choose service`.
 - Payment actions extend to `pay product` and `pay service`, both of which require card validation from a **Bank** actor.
-
-This visual overview helps identify the scope and responsibilities within the system for both customers and administrators.
 
 ## Project Structure
 
@@ -60,9 +55,6 @@ The project is organized into several Django apps, each responsible for specific
 - `templates/`: Contains HTML templates for rendering views.
 
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to HelloPaw, please fork the repository and submit a pull request. For major changes, open an issue first to discuss what you'd like to change.
 
 ## Contact
 
